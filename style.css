@@ -1,0 +1,52 @@
+@font-face {
+	font-family : arialic_hollow;
+	src: url(res/fonts/arialic_hollow.ttf);
+}
+* {
+	margin : 0;
+	padding : 0;
+}
+body {
+	overflow : hidden;
+}
+.main {
+	height  : 100vh;
+	width: 100%;
+	display : flex;
+	flex-flow : column-reverse nowrap;
+	justify-content : center;
+	background : url(res/seascape.gif);
+	background-size : cover;
+}
+ h1 {
+	font-family : arialic_hollow;
+	color : #e0f0ff;
+	font-size : 30vw;
+	text-align : center;
+}
+h2 {
+	font-size : 4vw;
+	text-align : center;
+	color : aliceblue;
+    margin-bottom: -0.75rem;
+}
+button {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    height: 2rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+	border-width : 0;
+    background: #000;
+    box-shadow: #fff 0 0 5px 0px;
+}
+button:hover {
+	
+	box-shadow: #fff 0 0 8px 0px;
+}
+button:active {
+	border-width : 2px;
+	scale : 1.05;
+	border-color : #ff6cc8;
+}
